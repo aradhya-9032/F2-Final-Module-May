@@ -153,9 +153,10 @@ let menu =
       ]
 
 
-  const header = document.querySelector("header");
-
-  window.addEventListener("scroll",function(){
+  // const header = document.querySelector("header");
+  const order = document.querySelectorAll("button");
+  window.addEventListener("click",function(){
+  // window.addEventListener("scroll",function(){
 
   });
 
@@ -175,6 +176,7 @@ function getMenu() {
     })
     .catch(error => console.log('Error:', error));
   }
+
 
 function takeOrder() {
   return new Promise((resolve, reject) => {

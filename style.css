@@ -127,7 +127,17 @@ nav ul a:hover {
   .items{
     grid-template-columns: repeat(1, 1fr);
   }
+  nav img {
+    position: absolute;
+    left: -8px;
+  }
+  h1{
+    position: absolute;
+    right: 32%;
+  }
 }
+
+
 
 
 
